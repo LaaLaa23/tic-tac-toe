@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+/*@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');*/
+
+* {
+  /*border: 1px solid green;*/
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+body {
+  background-color: cyan;
+  font-family: 'Patrick Hand SC', cursive;
+  /*font-family: 'Just Me Again Down Here', cursive;
+  font-family: 'Schoolbell', cursive;*/
+}
+
+.container{
+  text-align:center;
+  color: #333;
+}
+
+h1 {
+  font-size:36pt;
+  padding: 10px;
+}
+
+
+.gameboard {
+  display: inline-block;
+  margin:2%;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.tile{
+  width: 100px;
+  height: 100px;
+}
+
+.vert {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.horiz {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+table {
+  background-color: cyan;
+  text-align: center;
+  font-size: 20pt;
+}
