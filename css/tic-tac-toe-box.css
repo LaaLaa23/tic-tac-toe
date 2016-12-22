@@ -1,44 +1,84 @@
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
-/*@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
-@import url('https://fonts.googleapis.com/css?family=Schoolbell');*/
+/*@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');*/
+/*@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');*/
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+/*@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');*/
+/*@import url('https://fonts.googleapis.com/css?family=Shojumaru');*/
+/*@import url('https://fonts.googleapis.com/css?family=Nosifer');*/
+
 
 * {
-  /*border: 1px solid green;*/
   -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
 }
 
 body {
-  background-color: cyan;
-  font-family: 'Patrick Hand SC', cursive;
-  /*font-family: 'Just Me Again Down Here', cursive;
-  font-family: 'Schoolbell', cursive;*/
+  background-image: url(/Users/alexandergaggero/Projects/tic-tac-toe/images/tttwp2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  /*font-family: 'Patrick Hand SC', cursive;*/
+  /*font-family: 'Just Me Again Down Here', cursive;*/
+  font-family: 'Schoolbell', cursive;
+  /*font-family: 'Press Start 2P', cursive;*/
+  /*font-family: 'Shojumaru', cursive;*/
+  /*font-family: 'Nosifer', cursive;*/
 
 }
 
 .container {
-  width: 390px;
+  width: 330px;
   margin: 0 auto;
   text-align: center;
-  color: #333;
 }
 
 h1 {
-  font-size:36pt;
-  padding: 10px;
+  font-size:40pt;
+  margin-bottom: 10px;
 }
 
 .message {
-  font-size: 18px;
-  padding: 10px;
+  font-size: 32px;
+  padding-bottom: 10px;
 }
 
 .gameboard {
-  background-color: #ddd;
-  width: 130px;
-  height: 130px;
-  float: left;
+  background-color: rgba(222, 222, 222, 0.9);
+  width: 330px;
+  height: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 80px;
-  line-height: 130px;
+}
+
+.tile {
+  display: inline-block;
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  text-align: center;
+}
+
+.tile:hover {
+  background-color: lightgrey;
+}
+
+.reset {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.win {
+  background-color: grey;
+}
+
+.scorecard {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(222, 222, 222, 0.9);
+  font-size: 32px;
+  padding-bottom: 10px;
 }
